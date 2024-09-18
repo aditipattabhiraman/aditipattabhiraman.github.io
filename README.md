@@ -21,14 +21,18 @@
 
 - 📫 How to reach me: **aditipat@stanford.edu** or **aditi.pattabhiraman@gmail.com**
 
-<!--- 📄 Know about my experiences: [My Resume](https://drive.google.com/file/d/1nM9McORDFhQUHcYBi0XuPc6q4Fev-kpo/view?usp=drive_link)-->
-
 ---
 
 ### Connect with me:
 
-[![LinkedIn](https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg)](https://www.linkedin.com/in/aditi-p-1812a91b3/)
-[![GitHub](https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg)](https://github.com/aditipattabhiraman)
+<p align="left">
+  <a href="https://www.linkedin.com/in/aditi-p-1812a91b3/" target="_blank">
+    <img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+  <a href="https://github.com/aditipattabhiraman" target="_blank">
+    <img src="https://img.shields.io/badge/-GitHub-%23121011?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+  </a>
+</p>
 
 ### Languages and Tools:
 
@@ -40,7 +44,7 @@
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="C++" width="40" height="40"/>
   </a>
   <a href="https://julialang.org/" target="_blank" rel="noreferrer">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/3/38/Julia_programming_language_logo.svg" alt="Julia" width="40" height="40"/>
+    <img src="https://raw.githubusercontent.com/JuliaLang/julia-logo-graphics/master/images/julia-logo-color.png" alt="Julia" width="40" height="40"/>
   </a>
   <a href="https://www.mathworks.com/products/matlab.html" target="_blank" rel="noreferrer">
     <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png" alt="MATLAB" width="40" height="40"/>
@@ -57,7 +61,6 @@
   <a href="https://www.blender.org/" target="_blank" rel="noreferrer">
     <img src="https://download.blender.org/branding/community/blender_community_badge_white.svg" alt="Blender" width="40" height="40"/>
   </a>
-  <!-- Add more icons as needed -->
 </p>
 
 ### Skills:
