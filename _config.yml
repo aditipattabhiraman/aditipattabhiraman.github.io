@@ -1,0 +1,8 @@
+# _config.yml
+
+title: Aditi Pattabhiraman - Personal Website
+description: Personal website for Aditi Pattabhiraman, a Stanford Master's student in Aeronautics and Astronautics
+baseurl: "" # Only needed if your site is in a subfolder
+url: "https://aditipattabhiraman.github.io" # Update with your GitHub username
+theme: jekyll-theme-cayman # You can try different themes as well
+github_username: aditipattabhiraman # Your GitHub username
