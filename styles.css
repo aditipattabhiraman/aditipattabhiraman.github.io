@@ -1,0 +1,112 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Header Styles */
+header {
+    background-color: #f8f8f8;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+header h2 {
+    font-weight: normal;
+    color: #555;
+}
+
+/* Navigation Styles */
+nav {
+    background-color: #333;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0;
+}
+
+nav a {
+    display: block;
+    padding: 14px 20px;
+    color: #fff;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: #575757;
+}
+
+/* Section Styles */
+section {
+    padding: 40px 20px;
+}
+
+section h3 {
+    margin-top: 0;
+    color: #444;
+}
+
+.project {
+    margin-bottom: 30px;
+}
+
+.project h4 {
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.project p {
+    font-style: italic;
+    color: #666;
+}
+
+.project ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+#contact p {
+    line-height: 1.6;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #f8f8f8;
+    text-align: center;
+    padding: 20px;
+    color: #777;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav a {
+        text-align: center;
+    }
+}
