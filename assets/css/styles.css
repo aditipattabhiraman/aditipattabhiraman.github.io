@@ -77,6 +77,14 @@ body {
     content: "";
     animation: none;
 }
+.fade-in {
+    opacity: 1;
+    transition: opacity 0.6s ease-in;
+}
+
+section {
+    opacity: 0; /* Initially hide the sections */
+}
 
 /* Global Margin for Sections */
 section {
