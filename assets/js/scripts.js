@@ -29,6 +29,8 @@ document.addEventListener('DOMContentLoaded', function() {
             typingText.textContent += text.charAt(index);
             index++;
             setTimeout(type, 100); // Adjust speed here
+        } else {
+            typingText.style.borderRight = 'none'; // Remove cursor after typing ends
         }
     }
 
