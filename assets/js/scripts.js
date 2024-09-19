@@ -90,22 +90,19 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
     
-    const header = document.querySelector('header.title-banner');
+    // Hide header on scroll down, show on scroll up
+    let lastScrollTop = 0;
+    const header = document.querySelector('.title-banner');
 
     window.addEventListener('scroll', function() {
-        if (window.scrollY > 50) {
-            header.classList.add('hidden');
+        let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+        if (scrollTop > lastScrollTop) {
+            // Scrolling down
+            header.style.top = '-100px'; // Adjust this value as per your header height
         } else {
-            header.classList.remove('hidden');
+            // Scrolling up
+            header.style.top = '0';
         }
-    });
-    // Header shrink effect on scroll
-    const header = document.querySelector('header');
-    window.addEventListener('scroll', () => {
-        if (window.scrollY > 50) {
-            header.classList.add('shrink');
-        } else {
-            header.classList.remove('shrink');
-        }
+        lastScrollTop = scrollTop;
     });
 });
