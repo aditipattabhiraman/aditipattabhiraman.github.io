@@ -17,7 +17,13 @@
 
 ## About Me
 
-I'm currently pursuing my master's degree at Stanford...
+I’m Aditi Pattabhiraman, a master’s student at Stanford University in Aeronautics and Astronautics, specializing in Robotics and AI. My research and coursework focus on machine learning, control systems, and robotics with an emphasis on their applications in autonomous systems.
+
+Previously, I graduated from The Cooper Union with a Bachelor's in Mechanical Engineering, achieving Summa Cum Laude honors, and actively engaged in leadership roles such as President of the Tau Beta Pi ASME chapter. During this time, I also pursued a Computer Science minor, which strengthened my technical expertise in software development and data-driven problem solving.
+
+I am currently involved in a Drone Magnetic Field Survey of Crater project, where I collaborate with Dr. Mac Schwager and Dr. Anton Ermakov. The project focuses on using ROS2 and MOCAP systems to conduct drone and magnetometer tests, along with analyzing pose and magnetic field data. Additionally, I worked on a Quadcopter Controller Training project, using imitation learning pipelines to train quadcopters to fly trajectories and designing neural network architectures.
+
+Through these experiences, I’ve gained hands-on expertise in robotics, machine learning, and control systems, applying them to solve real-world challenges in AI-based drone navigation and autonomous systems.
 
 [Back to top](#top)
 
