@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Aditi Pattabhiraman"
+---
+# Hi 👋, I'm Aditi Pattabhiraman
 ### Stanford Master's Student in Aeronautics and Astronautics specializing in Robotics/AI
 
 -🌱 I’m currently learning **Robot Perception (CS227A)**, **Mechanics of Composites (AA256)**, and **Global Positioning Systems (AA272)**.
