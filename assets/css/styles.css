@@ -242,3 +242,8 @@ header.shrink {
     padding: 20px;
     font-size: 0.9rem;
 }
+.hidden {
+    transition: top 0.3s ease;
+    top: -100px;
+    position: relative;
+}
