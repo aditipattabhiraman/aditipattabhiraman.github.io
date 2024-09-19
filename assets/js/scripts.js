@@ -89,7 +89,16 @@ document.addEventListener('DOMContentLoaded', function() {
             behavior: 'smooth'
         });
     });
+    
+    const header = document.querySelector('header.title-banner');
 
+    window.addEventListener('scroll', function() {
+        if (window.scrollY > 50) {
+            header.classList.add('hidden');
+        } else {
+            header.classList.remove('hidden');
+        }
+    });
     // Header shrink effect on scroll
     const header = document.querySelector('header');
     window.addEventListener('scroll', () => {
