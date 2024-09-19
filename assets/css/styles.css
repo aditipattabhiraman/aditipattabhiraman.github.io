@@ -78,9 +78,9 @@ body {
     animation: none;
 }
 
-/* Text Panel Margins */
+/* Global Margin for Sections */
 section {
-    margin: 0 auto;
+    margin: 20px auto;
     max-width: 80%;
     padding: 60px 20px;
     opacity: 0;
@@ -88,17 +88,6 @@ section {
 }
 
 /* Center Smaller Sections */
-#skills, #contact {
-    text-align: center;
-    margin: 0 auto;
-}
-/* Global Margin for Sections */
-section {
-    margin: 20px auto;
-    max-width: 80%;
-}
-
-/* Margin for Skills and Connect sections */
 #skills, #contact {
     margin: 40px auto;
     text-align: center;
@@ -141,13 +130,11 @@ section {
     color: #007acc;
 }
 
-.fab.fa-cplusplus::before {
-    content: "\f38c"; /* Correct FontAwesome class for C++ */
-}
-
 /* Remove duplicate header padding issue */
-header {
-    padding: 60px 20px;
+header, footer {
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 20px;
 }
 
 /* Skills Section */
@@ -242,6 +229,7 @@ header.shrink {
     padding: 20px;
     font-size: 0.9rem;
 }
+
 .hidden {
     transition: top 0.3s ease;
     top: -100px;
