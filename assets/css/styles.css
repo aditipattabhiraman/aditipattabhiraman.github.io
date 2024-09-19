@@ -138,4 +138,67 @@ section {
 }
 
 #skills {
-    background-color
+    background-color: #ffe6e6; /* Pastel light pink */
+}
+
+#contact {
+    background-color: #e6fffa; /* Pastel light teal */
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    margin: 0 auto;
+    max-width: 80%;
+}
+
+/* Styling for Portfolio Preview */
+.portfolio-card {
+  display: flex;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.portfolio-card:hover {
+  transform: scale(1.05);
+}
+
+.portfolio-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.portfolio-text h3 {
+  margin-top: 0;
+  font-size: 1.5rem;
+}
+
+.portfolio-text p {
+  font-size: 1rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav li {
+        margin-bottom: 10px;
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+
+    header h2 {
+        font-size: 1rem;
+    }
+}
