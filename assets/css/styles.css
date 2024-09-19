@@ -89,9 +89,9 @@ section {
 
 /* Global Margin for Sections */
 section {
-    margin: 20px auto;
+    margin: 40px auto;
     max-width: 80%;
-    padding: 60px 20px;
+    padding: 40px 40px;
     opacity: 0;
     animation: slideIn 1s forwards;
 }
