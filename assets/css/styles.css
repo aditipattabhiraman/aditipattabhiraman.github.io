@@ -156,7 +156,7 @@ section {
 }
 
 /* Skills and Contact Sections */
-#skills, #contact {
+#skills, #contact #projects #publications #about{
     margin: 40px auto;
     text-align: center;
 }
