@@ -114,9 +114,11 @@ a.button:hover {
 
 /* Section Styles */
 section {
-    padding: 60px 20px;
-    opacity: 0;
-    animation: fadeIn 1s forwards;
+  margin: 0 auto;
+  max-width: 80%;
+  padding: 60px 20px;
+  opacity: 0;
+  animation: slideIn 1s forwards; /* Slide in when section appears */
 }
 
 #home {
@@ -136,35 +138,4 @@ section {
 }
 
 #skills {
-    background-color: #ffe6e6; /* Pastel light pink */
-}
-
-#contact {
-    background-color: #e6fffa; /* Pastel light teal */
-}
-
-footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 1em;
-}
-
-/* Responsive Design */
-@media (max-width: 768px) {
-    nav ul {
-        flex-direction: column;
-    }
-
-    nav li {
-        margin-bottom: 10px;
-    }
-
-    header h1 {
-        font-size: 2rem;
-    }
-
-    header h2 {
-        font-size: 1rem;
-    }
-}
+    background-color
