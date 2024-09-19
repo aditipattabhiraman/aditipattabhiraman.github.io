@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function() { 
     // Smooth fade-in effect for each section as you scroll
     const sections = document.querySelectorAll('section');
     const options = {
@@ -90,7 +90,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
     
-    // Hide header on scroll down, show on scroll up
+    // Shrinking header logic when scrolling
     let lastScrollTop = 0;
     const header = document.querySelector('.title-banner');
 
@@ -98,10 +98,10 @@ document.addEventListener('DOMContentLoaded', function() {
         let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
         if (scrollTop > lastScrollTop) {
             // Scrolling down
-            header.style.top = '-100px'; // Adjust this value as per your header height
+            header.classList.add('shrink');
         } else {
             // Scrolling up
-            header.style.top = '0';
+            header.classList.remove('shrink');
         }
         lastScrollTop = scrollTop;
     });
