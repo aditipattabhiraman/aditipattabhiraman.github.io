@@ -36,19 +36,16 @@ Through these experiences, I’ve gained hands-on expertise in robotics, machine
 
 ## My Project Portfolio
 
-Check out my visual portfolio showcasing all my work:
+Explore my visual portfolio showcasing all my work:
 
-<a href="https://sway.cloud.microsoft/tgwgpdPDNmBor0HX?ref=Link&loc=play" class="portfolio-preview">
-  <div class="portfolio-card">
-    <img src="https://via.placeholder.com/150" alt="Portfolio Preview" class="portfolio-img"/>
-    <div class="portfolio-text">
-      <h3>My Project Portfolio</h3>
-      <p>Explore my latest research projects in AI, robotics, and drone navigation.</p>
-    </div>
-  </div>
-</a>
+<div class="sway-embed">
+  <iframe width="760px" height="500px" src="https://sway.cloud.microsoft/s/tgwgpdPDNmBor0HX/embed" 
+    frameborder="0" marginheight="0" marginwidth="0" sandbox="allow-forms allow-modals allow-orientation-lock allow-popups allow-same-origin allow-scripts" 
+    scrolling="no" style="border: none; max-width: 100%; max-height: 100vh;" allowfullscreen mozallowfullscreen msallowfullscreen webkitallowfullscreen></iframe>
+</div>
 
 [Back to top](#top)
+
 
 ---
 
