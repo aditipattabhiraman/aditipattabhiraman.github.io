@@ -9,15 +9,7 @@
 
 ## About Me
 
-I'm currently pursuing a Master's degree in Aeronautics and Astronautics at Stanford University, specializing in Robotics and AI. My primary interests lie in applying machine learning and control systems to advance robotics technologies, particularly in drone navigation and autonomous systems. 
-
-During my time at Stanford, I've worked on several research projects focused on aerial robotics, leveraging state-of-the-art techniques in control theory and machine learning to enhance autonomous navigation. One of my latest projects involves conducting a magnetic field survey using drones, which has opened up new insights into real-time data analysis and sensor fusion.
-
-With a strong foundation in mechanical engineering from The Cooper Union, I have developed a keen interest in cross-disciplinary approaches that blend AI, machine learning, and robotics with embedded systems and mechanical design.
-
-🏆 **Honors:** Tau Beta Pi Graduate Fellowship, IDC Fellowship  
-👩‍💼 **Leadership Roles:** Tau Beta Pi ASME President, WIAA Grad Outreach Chair, DEIB Committee Member  
-📜 **Certifications:** FE Mechanical Exam (NCEES), Stanford Ignite (School of Business Executive Education)
+...
 
 [Back to top](#top)
 
@@ -41,6 +33,26 @@ Check out my visual portfolio showcasing all my work:
 
 ---
 
+## Projects
+
+### Drone Magnetic Field Survey of Crater (Current)
+
+- Conducting drone and magnetometer tests using ROS2 VRPN and MOCAP systems in the Stanford Flight Room.
+- Analyzing pose and magnetic field data to characterize the drone's magnetic field.
+
+[Back to top](#top)
+
+---
+
+## Publications
+
+- A. Walters et al., "Hydrogen Intensity Real-Time Analysis eXperiment: Overview and Status Update." _2024 EuCAP_, Glasgow, UK. [doi:10.23919/EuCAP60739.2024.10501639](https://doi.org/10.23919/EuCAP60739.2024.10501639).
+- M. Baglione et al., "Validation of Energy Savings from a Condenser Water Supply Temperature Reset Strategy (TA-23-C089)." _2023 ASHRAE Conference_, Tampa, FL, June 27, 2023.
+
+[Back to top](#top)
+
+---
+
 ## Skills
 
 **Programming & Software:**  
@@ -55,15 +67,5 @@ Check out my visual portfolio showcasing all my work:
 
 **Hardware & Mechanical:**  
 <i class="fas fa-microchip"></i> Embedded Systems, Raspberry Pi, Arduino
-
-[Back to top](#top)
-
----
-
-## Contact
-
-📫 Email: [aditipat@stanford.edu](mailto:aditipat@stanford.edu) or [aditi.pattabhiraman@gmail.com](mailto:aditi.pattabhiraman@gmail.com)
-
-🔗 Connect with me: [LinkedIn](https://www.linkedin.com/in/aditi-p-1812a91b3/) | [GitHub](https://github.com/aditipattabhiraman)
 
 [Back to top](#top)
