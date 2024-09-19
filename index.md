@@ -1,8 +1,3 @@
----
-layout: default
-title: Home
----
-
 # Hi 👋, I'm Aditi Pattabhiraman
 ### Stanford Master's Student in Aeronautics and Astronautics specializing in Robotics/AI
 
@@ -10,49 +5,37 @@ title: Home
 
 📚 My recent project: **Drone Magnetic Field Survey of Crater**, working with Dr. Mac Schwager & Dr. Anton Ermakov on analyzing pose and magnetic field data.
 
-[Back to top](#top)
-
 ---
 
 ## About Me
 
-🎓 **Expected Graduation:** June 2025
+I'm currently pursuing a Master's degree in Aeronautics and Astronautics at Stanford University, specializing in Robotics and AI. My primary interests lie in applying machine learning and control systems to advance robotics technologies, particularly in drone navigation and autonomous systems. 
 
-🏆 **Honors:** Tau Beta Pi Graduate Fellowship, IDC Fellowship
+During my time at Stanford, I've worked on several research projects focused on aerial robotics, leveraging state-of-the-art techniques in control theory and machine learning to enhance autonomous navigation. One of my latest projects involves conducting a magnetic field survey using drones, which has opened up new insights into real-time data analysis and sensor fusion.
 
-🚀 I'm passionate about applying machine learning, control systems, and robotics to improve efficiency and drive innovative technologies.
+With a strong foundation in mechanical engineering from The Cooper Union, I have developed a keen interest in cross-disciplinary approaches that blend AI, machine learning, and robotics with embedded systems and mechanical design.
 
-👨‍💻 All of my projects are available at [My Project Portfolio](https://sway.cloud.microsoft/tgwgpdPDNmBor0HX?ref=Link&loc=play).
-
-**Leadership Roles:** Tau Beta Pi ASME President, WIAA Grad Outreach Chair, DEIB Committee Member.
-
-**Certifications:** FE Mechanical Exam (NCEES), Stanford Ignite (School of Business Executive Education)
+🏆 **Honors:** Tau Beta Pi Graduate Fellowship, IDC Fellowship  
+👩‍💼 **Leadership Roles:** Tau Beta Pi ASME President, WIAA Grad Outreach Chair, DEIB Committee Member  
+📜 **Certifications:** FE Mechanical Exam (NCEES), Stanford Ignite (School of Business Executive Education)
 
 [Back to top](#top)
 
 ---
 
-## Projects
+## My Project Portfolio
 
-### Drone Magnetic Field Survey of Crater (Current)
+Check out my visual portfolio showcasing all my work:
 
-- Working under Dr. Mac Schwager & Dr. Anton Ermakov.
-- Conducting drone and magnetometer tests using ROS2 VRPN and MOCAP systems in the Stanford Flight Room.
-- Analyzing pose and magnetic field data to characterize the drone's magnetic field.
-
-### Quadcopter Controller Training
-
-- Developed an imitation learning pipeline to train a quadcopter to fly trajectories using transformers with CUDA.
-- Designed neural network architectures like MLPs based on low-level control data.
-
-[Back to top](#top)
-
----
-
-## Publications
-
-- A. Walters et al., "Hydrogen Intensity Real-Time Analysis eXperiment: Overview and Status Update." _2024 EuCAP_, Glasgow, UK, pp. 1-5. [doi:10.23919/EuCAP60739.2024.10501639](https://doi.org/10.23919/EuCAP60739.2024.10501639).
-- M. Baglione et al., "Validation of Energy Savings from a Condenser Water Supply Temperature Reset Strategy (TA-23-C089)." _2023 ASHRAE Conference_, Tampa, FL, June 27, 2023.
+<a href="https://sway.cloud.microsoft/tgwgpdPDNmBor0HX?ref=Link&loc=play" class="portfolio-preview">
+  <div class="portfolio-card">
+    <img src="https://via.placeholder.com/150" alt="Portfolio Preview" class="portfolio-img"/>
+    <div class="portfolio-text">
+      <h3>My Project Portfolio</h3>
+      <p>Explore my latest research projects in AI, robotics, and drone navigation.</p>
+    </div>
+  </div>
+</a>
 
 [Back to top](#top)
 
@@ -60,13 +43,18 @@ title: Home
 
 ## Skills
 
-**Programming & Software:** Python, C++, Julia, CUDA, ROS2, MATLAB, Linux, PyTorch, Jupyter, Anaconda, GitHub, OpenGL, OpenCV, Open3D, VMware, VS Code, Pandas, NumPy, WSL, Ubuntu, Blender.
+**Programming & Software:**  
+<i class="fab fa-python"></i> Python,  
+<i class="fab fa-cplusplus"></i> C++,  
+<i class="fab fa-java"></i> Java,  
+<i class="fab fa-git"></i> Git,  
+<i class="fab fa-github"></i> GitHub
 
-**AI/ML & Robotics:** Imitation Learning, MLPs, Q-learning, Transformers, Reinforcement Learning, Supervised Learning, 3D Printing, CAD, Gazebo, SolidWorks, OnShape, ANSYS, SLAM, Neural Radiance Fields (NeRF).
+**AI/ML & Robotics:**  
+<i class="fas fa-robot"></i> Robotics, Machine Learning, Neural Networks, Deep Learning
 
-**Hardware & Mechanical:** Raspberry Pi, Arduino, MOCAP, Mechanical Design, Embedded Systems, Actuator Control.
-
-**Soft Skills:** Leadership, Teamwork, Presentation, Creativity, Business Strategy, Communication, Critical Thinking.
+**Hardware & Mechanical:**  
+<i class="fas fa-microchip"></i> Embedded Systems, Raspberry Pi, Arduino
 
 [Back to top](#top)
 
