@@ -21,13 +21,7 @@ title: "Aditi Pattabhiraman"
 
 ## About Me
 
-<p align="center">I’m Aditi Pattabhiraman, a master’s student at Stanford University in Aeronautics and Astronautics, specializing in Robotics and AI. My research and coursework focus on machine learning, control systems, and robotics with an emphasis on their applications in autonomous systems.
-
-Previously, I graduated from The Cooper Union with a Bachelor's in Mechanical Engineering, achieving Summa Cum Laude honors, and actively engaged in leadership roles such as President of the Tau Beta Pi ASME chapter. During this time, I also pursued a Computer Science minor, which strengthened my technical expertise in software development and data-driven problem solving.
-
-I am currently involved in a Drone Magnetic Field Survey of Crater project, where I collaborate with Dr. Mac Schwager and Dr. Anton Ermakov. The project focuses on using ROS2 and MOCAP systems to conduct drone and magnetometer tests, along with analyzing pose and magnetic field data. Additionally, I worked on a Quadcopter Controller Training project, using imitation learning pipelines to train quadcopters to fly trajectories and designing neural network architectures.
-
-Through these experiences, I’ve gained hands-on expertise in robotics, machine learning, and control systems, applying them to solve real-world challenges in AI-based drone navigation and autonomous systems.</p>
+<p align="center">I’m Aditi Pattabhiraman, a master’s student at Stanford University in Aeronautics and Astronautics, specializing in Robotics and AI. My research and coursework focus on machine learning, control systems, and robotics with an emphasis on their applications in autonomous systems. Previously, I graduated from The Cooper Union with a Bachelor's in Mechanical Engineering, achieving Summa Cum Laude honors, and actively engaged in leadership roles such as President of the Tau Beta Pi ASME chapter. During this time, I also pursued a Computer Science minor, which strengthened my technical expertise in software development and data-driven problem solving.I am currently involved in a Drone Magnetic Field Survey of Crater project, where I collaborate with Dr. Mac Schwager and Dr. Anton Ermakov. The project focuses on using ROS2 and MOCAP systems to conduct drone and magnetometer tests, along with analyzing pose and magnetic field data. Additionally, I worked on a Quadcopter Controller Training project, using imitation learning pipelines to train quadcopters to fly trajectories and designing neural network architectures.Through these experiences, I’ve gained hands-on expertise in robotics, machine learning, and control systems, applying them to solve real-world challenges in AI-based drone navigation and autonomous systems.</p>
 
 [Back to top](#top)
 
@@ -35,14 +29,14 @@ Through these experiences, I’ve gained hands-on expertise in robotics, machine
 
 ## My Project Portfolio
 
-<p align="center">Explore my visual portfolio showcasing all my work:
+<p align="center">Explore my visual portfolio showcasing all my work:</p>
 
 <div class="sway-embed">
   <iframe width="760px" height="500px" src="https://sway.cloud.microsoft/s/tgwgpdPDNmBor0HX/embed" 
     frameborder="0" marginheight="0" marginwidth="0" sandbox="allow-forms allow-modals allow-orientation-lock allow-popups allow-same-origin allow-scripts" 
     scrolling="no" style="border: none; max-width: 100%; max-height: 100vh;" allowfullscreen mozallowfullscreen msallowfullscreen webkitallowfullscreen></iframe>
 </div>
-</p>
+
 [Back to top](#top)
 
 
