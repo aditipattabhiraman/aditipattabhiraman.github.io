@@ -39,6 +39,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Button hover ripple effect
     const buttons = document.querySelectorAll('a.button');
     buttons.forEach(button => {
+        button.style.position = 'relative'; // Ensure button has relative positioning for the ripple
         button.addEventListener('click', function (e) {
             let x = e.clientX - e.target.offsetLeft;
             let y = e.clientY - e.target.offsetTop;
