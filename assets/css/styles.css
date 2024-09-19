@@ -4,15 +4,30 @@ body {
     margin: 0;
     padding: 0;
     color: #333;
-    scroll-behavior: smooth; /* Smooth scrolling for anchor links */
+    scroll-behavior: smooth;
     line-height: 1.6;
-    background-color: #f9f9f9; /* Light background */
+    background-color: #f9f9f9;
+}
+
+/* Text Panel Margins */
+section {
+    margin: 0 auto;
+    max-width: 80%;
+    padding: 60px 20px;
+    opacity: 0;
+    animation: slideIn 1s forwards;
+}
+
+/* Center Smaller Sections */
+#skills, #contact {
+    text-align: center;
+    margin: 0 auto;
 }
 
 /* Header Typing Effect */
 .header-typing {
     overflow: hidden;
-    border-right: 3px solid #333; /* Blinking cursor effect */
+    border-right: 3px solid #333;
     white-space: nowrap;
     margin: 0 auto;
     letter-spacing: 0.15rem;
@@ -58,7 +73,11 @@ body {
 .fab, .fas {
     font-size: 1.5rem;
     margin-right: 10px;
-    color: #007acc; /* Give the icons a nice color */
+    color: #007acc;
+}
+
+.fab.fa-cplusplus::before {
+    content: "\f38c"; /* Correct FontAwesome class for C++ */
 }
 
 /* Remove duplicate header padding issue */
@@ -70,4 +89,32 @@ header {
 #skills {
     background-color: #ffe6e6;
     padding: 40px 20px;
+    margin-bottom: 20px;
+}
+
+/* Contact Section */
+#contact {
+    background-color: #e6fffa;
+    padding: 60px 20px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+#contact a {
+    color: #007acc;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    margin: 0 auto;
+    max-width: 80%;
 }
