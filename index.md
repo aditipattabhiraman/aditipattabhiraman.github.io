@@ -1,8 +1,17 @@
 ### Stanford Master's Student in Aeronautics and Astronautics specializing in Robotics/AI
 
-🌱 I’m currently learning **Robot Perception (CS227A)**, **Mechanics of Composites (AA256)**, and **Global Positioning Systems (AA272)**.
+-🌱 I’m currently learning **Robot Perception (CS227A)**, **Mechanics of Composites (AA256)**, and **Global Positioning Systems (AA272)**.
 
-📚 My recent project: **Drone Magnetic Field Survey of Crater**, working with Dr. Mac Schwager & Dr. Anton Ermakov on analyzing pose and magnetic field data.
+- 🔭 I’m currently working on **Drone Magnetic Field Survey of Crater** under Dr. Mac Schwager & Dr. Anton Ermakov
+  - Conducting drone and magnetometer tests using ROS2 VRPN and MOCAP systems in the Stanford Flight Room
+  - Analyzing pose and magnetic field data to characterize the drone's magnetic field for an upcoming crater survey
+
+- 💡 Previously, I worked on **Quadcopter Controller Training** at the Multi-Robot Systems Lab (MSL)
+  - Developed an imitation learning pipeline to train a quadcopter to fly trajectories using transformers with CUDA
+  - Designed neural network architectures like MLPs based on low-level control data
+
+- 🚀 I'm passionate about applying machine learning, control systems, and robotics to improve efficiency and drive innovative technologies
+
 
 ---
 
