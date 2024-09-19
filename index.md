@@ -3,7 +3,7 @@ layout: default
 title: "Aditi Pattabhiraman"
 ---
 ## Home
-<p align="center">
+<p align="left">
 - 🌱 I’m currently learning **Robot Perception (CS227A)**, **Mechanics of Composites (AA256)**, and **Global Positioning Systems (AA272)**.
 
 - 🔭 I’m currently working on **Drone Magnetic Field Survey of Crater** under Dr. Mac Schwager & Dr. Anton Ermakov
@@ -21,7 +21,7 @@ title: "Aditi Pattabhiraman"
 
 ## About Me
 
-<p align="center">I’m Aditi Pattabhiraman, a master’s student at Stanford University in Aeronautics and Astronautics, specializing in Robotics and AI. My research and coursework focus on machine learning, control systems, and robotics with an emphasis on their applications in autonomous systems. Previously, I graduated from The Cooper Union with a Bachelor's in Mechanical Engineering, achieving Summa Cum Laude honors, and actively engaged in leadership roles such as President of the Tau Beta Pi ASME chapter. During this time, I also pursued a Computer Science minor, which strengthened my technical expertise in software development and data-driven problem solving.I am currently involved in a Drone Magnetic Field Survey of Crater project, where I collaborate with Dr. Mac Schwager and Dr. Anton Ermakov. The project focuses on using ROS2 and MOCAP systems to conduct drone and magnetometer tests, along with analyzing pose and magnetic field data. Additionally, I worked on a Quadcopter Controller Training project, using imitation learning pipelines to train quadcopters to fly trajectories and designing neural network architectures.Through these experiences, I’ve gained hands-on expertise in robotics, machine learning, and control systems, applying them to solve real-world challenges in AI-based drone navigation and autonomous systems.</p>
+<p align="left">I’m Aditi Pattabhiraman, a master’s student at Stanford University in Aeronautics and Astronautics, specializing in Robotics and AI. My research and coursework focus on machine learning, control systems, and robotics with an emphasis on their applications in autonomous systems. Previously, I graduated from The Cooper Union with a Bachelor's in Mechanical Engineering, achieving Summa Cum Laude honors, and actively engaged in leadership roles such as President of the Tau Beta Pi ASME chapter. During this time, I also pursued a Computer Science minor, which strengthened my technical expertise in software development and data-driven problem solving.I am currently involved in a Drone Magnetic Field Survey of Crater project, where I collaborate with Dr. Mac Schwager and Dr. Anton Ermakov. The project focuses on using ROS2 and MOCAP systems to conduct drone and magnetometer tests, along with analyzing pose and magnetic field data. Additionally, I worked on a Quadcopter Controller Training project, using imitation learning pipelines to train quadcopters to fly trajectories and designing neural network architectures.Through these experiences, I’ve gained hands-on expertise in robotics, machine learning, and control systems, applying them to solve real-world challenges in AI-based drone navigation and autonomous systems.</p>
 
 [Back to top](#top)
 
@@ -29,7 +29,7 @@ title: "Aditi Pattabhiraman"
 
 ## My Project Portfolio
 
-<p align="center">Explore my visual portfolio showcasing all my work:</p>
+Explore my visual portfolio showcasing all my work:
 
 <div class="sway-embed">
   <iframe width="760px" height="500px" src="https://sway.cloud.microsoft/s/tgwgpdPDNmBor0HX/embed" 
@@ -43,21 +43,21 @@ title: "Aditi Pattabhiraman"
 ---
 
 ## Projects
-<p align="center">
-**Drone Magnetic Field Survey of Crater (Current)**
+
+### Drone Magnetic Field Survey of Crater (Current)
 
 - Conducting drone and magnetometer tests using ROS2 VRPN and MOCAP systems in the Stanford Flight Room.
-- Analyzing pose and magnetic field data to characterize the drone's magnetic field.</p>
+- Analyzing pose and magnetic field data to characterize the drone's magnetic field.
 
 [Back to top](#top)
 
 ---
 
 ## Publications
-<p align="center">
+
 - A. Walters et al., "Hydrogen Intensity Real-Time Analysis eXperiment: Overview and Status Update." _2024 EuCAP_, Glasgow, UK. [doi:10.23919/EuCAP60739.2024.10501639](https://doi.org/10.23919/EuCAP60739.2024.10501639).
 - M. Baglione et al., "Validation of Energy Savings from a Condenser Water Supply Temperature Reset Strategy (TA-23-C089)." _2023 ASHRAE Conference_, Tampa, FL, June 27, 2023.
-</p>
+
 [Back to top](#top)
 
 ---
