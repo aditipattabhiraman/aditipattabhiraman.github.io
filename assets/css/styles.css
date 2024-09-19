@@ -160,7 +160,12 @@ section {
     margin: 40px auto;
     text-align: center;
 }
-
+/* Icon Styles */
+.fab, .fas {
+    font-size: 1.5rem;
+    margin-right: 10px;
+    color: #007acc;
+}
 /* Footer */
 footer {
     background-color: #333;
