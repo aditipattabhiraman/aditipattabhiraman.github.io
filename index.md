@@ -1,4 +1,3 @@
-# Hi 👋, I'm Aditi Pattabhiraman
 ### Stanford Master's Student in Aeronautics and Astronautics specializing in Robotics/AI
 
 🌱 I’m currently learning **Robot Perception (CS227A)**, **Mechanics of Composites (AA256)**, and **Global Positioning Systems (AA272)**.
@@ -9,7 +8,7 @@
 
 ## About Me
 
-...
+I'm currently pursuing my master's degree at Stanford...
 
 [Back to top](#top)
 
@@ -67,5 +66,17 @@ Check out my visual portfolio showcasing all my work:
 
 **Hardware & Mechanical:**  
 <i class="fas fa-microchip"></i> Embedded Systems, Raspberry Pi, Arduino
+
+[Back to top](#top)
+
+---
+
+## Contact
+
+📫 Email: [aditipat@stanford.edu](mailto:aditipat@stanford.edu) or [aditi.pattabhiraman@gmail.com](mailto:aditi.pattabhiraman@gmail.com)
+
+🔗 Connect with me:  
+[LinkedIn](https://www.linkedin.com/in/aditi-p-1812a91b3/) |  
+[GitHub](https://github.com/aditipattabhiraman)
 
 [Back to top](#top)
