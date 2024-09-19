@@ -175,3 +175,13 @@ footer {
     width: 100%;  /* Make it span the whole width */
     margin: 0;    /* Remove any default margin */
 }
+/* Progress Bar */
+#progress-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 5px;
+    background-color: #0066cc;
+    width: 0;
+    z-index: 9999;
+}
