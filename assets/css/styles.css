@@ -92,6 +92,17 @@ section {
     text-align: center;
     margin: 0 auto;
 }
+/* Global Margin for Sections */
+section {
+    margin: 20px auto;
+    max-width: 80%;
+}
+
+/* Margin for Skills and Connect sections */
+#skills, #contact {
+    margin: 40px auto;
+    text-align: center;
+}
 
 /* Portfolio Preview Styling */
 .portfolio-card {
