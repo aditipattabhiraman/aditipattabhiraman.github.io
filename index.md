@@ -198,6 +198,8 @@ M. Baglione et al., "Validation of Energy Savings from a Condenser Water Supply 
       <span class="skill-tag">Reinforcement Learning</span>
       <span class="skill-tag">Neural Networks</span>
       <span class="skill-tag">SLAM</span>
+      <span class="skill-tag">NeRF</span>
+      <span class="skill-tag">Gazebo</span>
     </div>
   </div>
   <div class="skill-category">
@@ -207,6 +209,8 @@ M. Baglione et al., "Validation of Energy Savings from a Condenser Water Supply 
       <span class="skill-tag">Arduino</span>
       <span class="skill-tag">MOCAP</span>
       <span class="skill-tag">SolidWorks</span>
+      <span class="skill-tag">OnShape</span>
+      <span class="skill-tag">ANSYS</span>
       <span class="skill-tag">3D Printing</span>
     </div>
   </div>
