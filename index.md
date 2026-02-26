@@ -39,14 +39,9 @@ Working with Dr. Mac Schwager & Dr. Anton Ermakov:
 ## About Me
 {: #about}
 
-<div class="about-hero">
-  <img class="profile-photo" src="#" alt="Aditi Pattabhiraman" onerror="this.style.display='none'">
-  <div class="about-text">
-    <p>I'm Aditi Pattabhiraman, a Master's student at Stanford University in Aeronautics and Astronautics, specializing in Robotics and AI. My research and coursework focus on machine learning, control systems, and robotics, with emphasis on their applications in autonomous systems.</p>
-    <p>I graduated from The Cooper Union with a Bachelor's in Mechanical Engineering, achieving Summa Cum Laude honors. During my undergraduate years I served as President of the Tau Beta Pi/ASME chapter and pursued a Computer Science minor, which strengthened my technical expertise in software development and data-driven problem solving.</p>
-    <p>Outside the lab, I have explored the commercial side of autonomy through the Stanford Ignite Program, where I worked on a drone delivery start-up. I am also active in the Stanford community as WIAA Graduate Outreach Chair and a member of the Diversity, Equity, Inclusion, and Belonging Committee.</p>
-  </div>
-</div>
+<p>I'm Aditi Pattabhiraman, a Master's student at Stanford University in Aeronautics and Astronautics, specializing in Robotics and AI. My research and coursework focus on machine learning, control systems, and robotics, with emphasis on their applications in autonomous systems.</p>
+<p>I graduated from The Cooper Union with a Bachelor's in Mechanical Engineering, achieving Summa Cum Laude honors. During my undergraduate years I served as President of the Tau Beta Pi/ASME chapter and pursued a Computer Science minor, which strengthened my technical expertise in software development and data-driven problem solving.</p>
+<p>Outside the lab, I have explored the commercial side of autonomy through the Stanford Ignite Program, where I worked on a drone delivery start-up. I am also active in the Stanford community as WIAA Graduate Outreach Chair and a member of the Diversity, Equity, Inclusion, and Belonging Committee.</p>
 
 <p class="honors-line"><strong>Honors &amp; Recognition:</strong> Tau Beta Pi Graduate Fellowship · WIAA Graduate Outreach Chair · DEIB Committee Member · Summa Cum Laude, The Cooper Union</p>
 
