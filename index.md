@@ -5,10 +5,9 @@ title: "Aditi Pattabhiraman"
 
 <div class="section-wrapper" data-section="home">
 
-## Home
-{: #home}
+<h2 id="home">Home</h2>
 
-<p class="section-lead">Master's student at Stanford University (Aeronautics and Astronautics), specializing in Robotics and AI. I build systems at the intersection of machine learning, control theory, and autonomous flight.</p>
+<p class="section-lead">ML & Data Science Engineer at Audi ADAS Hub &middot; Stanford M.S. Aero/Astro (Tau Beta Pi Fellow) &middot; Cooper Union B.E. Passionate about autonomy, machine learning, and data-driven systems. Always tinkering.</p>
 
 <div class="card">
 <div class="card-meta">Current Research · Stanford Multi-Robot Systems Lab</div>
@@ -36,8 +35,7 @@ Working with Dr. Mac Schwager & Dr. Anton Ermakov:
 
 <div class="section-wrapper" data-section="about">
 
-## About Me
-{: #about}
+<h2 id="about">About Me</h2>
 
 <p>I'm Aditi Pattabhiraman, a Master's student at Stanford University in Aeronautics and Astronautics, specializing in Robotics and AI. My research and coursework focus on machine learning, control systems, and robotics, with emphasis on their applications in autonomous systems.</p>
 <p>I graduated from The Cooper Union with a Bachelor's in Mechanical Engineering, achieving Summa Cum Laude honors. During my undergraduate years I served as President of the Tau Beta Pi/ASME chapter and pursued a Computer Science minor, which strengthened my technical expertise in software development and data-driven problem solving.</p>
@@ -51,8 +49,7 @@ Working with Dr. Mac Schwager & Dr. Anton Ermakov:
 
 <div class="section-wrapper" data-section="portfolio">
 
-## My Project Portfolio
-{: #portfolio}
+<h2 id="portfolio">My Project Portfolio</h2>
 
 Explore my visual portfolio showcasing all my work:
 
@@ -68,8 +65,7 @@ Explore my visual portfolio showcasing all my work:
 
 <div class="section-wrapper" data-section="projects">
 
-## Projects
-{: #projects}
+<h2 id="projects">Projects</h2>
 
 <div class="card">
 <div class="card-meta">Current · Stanford Multi-Robot Systems Lab</div>
@@ -92,7 +88,7 @@ Explore my visual portfolio showcasing all my work:
 </div>
 
 <div class="card">
-<div class="card-meta">Stanford AA228 / CS238</div>
+<div class="card-meta">Stanford AA222 · Optimization</div>
 <div class="card-title">Genetic Algorithm Optimization for Virtual Flight</div>
 
 - Optimized virtual flying creatures using genetic algorithms with tournament selection, crossover, and mutation
@@ -101,7 +97,7 @@ Explore my visual portfolio showcasing all my work:
 </div>
 
 <div class="card">
-<div class="card-meta">Stanford CS221</div>
+<div class="card-meta">Stanford AA228 · Decision Making Under Uncertainty</div>
 <div class="card-title">Can We Win Blackjack?</div>
 
 - Implemented Q-learning and SARSA agents for playing Blackjack with policy visualizations
@@ -110,7 +106,7 @@ Explore my visual portfolio showcasing all my work:
 </div>
 
 <div class="card">
-<div class="card-meta">Stanford AA174 / CS237</div>
+<div class="card-meta">Advanced Controls · Cooper Union</div>
 <div class="card-title">Turtlebot Navigation</div>
 
 - Designed Pure Pursuit and Model Predictive Controllers using Python in a ROS2 environment for Turtlebot4
@@ -124,8 +120,7 @@ Explore my visual portfolio showcasing all my work:
 
 <div class="section-wrapper" data-section="publications">
 
-## Publications
-{: #publications}
+<h2 id="publications">Publications</h2>
 
 <div class="card">
 
@@ -145,8 +140,7 @@ M. Baglione et al., "Validation of Energy Savings from a Condenser Water Supply 
 
 <div class="section-wrapper" data-section="skills">
 
-## Skills
-{: #skills}
+<h2 id="skills">Skills</h2>
 
 **Programming Languages**
 
@@ -185,11 +179,14 @@ M. Baglione et al., "Validation of Energy Savings from a Condenser Water Supply 
       <span class="skill-tag">ROS2</span>
       <span class="skill-tag">CUDA</span>
       <span class="skill-tag">OpenCV</span>
-      <span class="skill-tag">Open3D</span>
       <span class="skill-tag">NumPy</span>
       <span class="skill-tag">Pandas</span>
       <span class="skill-tag">Jupyter</span>
       <span class="skill-tag">Anaconda</span>
+      <span class="skill-tag">Docker</span>
+      <span class="skill-tag">Podman</span>
+      <span class="skill-tag">Databricks</span>
+      <span class="skill-tag">React</span>
       <span class="skill-tag">GitHub</span>
     </div>
   </div>
@@ -201,8 +198,6 @@ M. Baglione et al., "Validation of Energy Savings from a Condenser Water Supply 
       <span class="skill-tag">Reinforcement Learning</span>
       <span class="skill-tag">Neural Networks</span>
       <span class="skill-tag">SLAM</span>
-      <span class="skill-tag">NeRF</span>
-      <span class="skill-tag">Gazebo</span>
     </div>
   </div>
   <div class="skill-category">
@@ -212,8 +207,6 @@ M. Baglione et al., "Validation of Energy Savings from a Condenser Water Supply 
       <span class="skill-tag">Arduino</span>
       <span class="skill-tag">MOCAP</span>
       <span class="skill-tag">SolidWorks</span>
-      <span class="skill-tag">OnShape</span>
-      <span class="skill-tag">ANSYS</span>
       <span class="skill-tag">3D Printing</span>
     </div>
   </div>
@@ -223,10 +216,8 @@ M. Baglione et al., "Validation of Energy Savings from a Condenser Water Supply 
       <span class="skill-tag">Linux</span>
       <span class="skill-tag">Ubuntu</span>
       <span class="skill-tag">WSL</span>
-      <span class="skill-tag">VMware</span>
       <span class="skill-tag">VS Code</span>
       <span class="skill-tag">Blender</span>
-      <span class="skill-tag">OpenGL</span>
     </div>
   </div>
 </div>
@@ -237,8 +228,7 @@ M. Baglione et al., "Validation of Energy Savings from a Condenser Water Supply 
 
 <div class="section-wrapper" data-section="contact">
 
-## Contact
-{: #contact}
+<h2 id="contact">Contact</h2>
 
 I'm open to research collaborations, project discussions, and opportunities in robotics and autonomous systems. Feel free to reach out.
 
