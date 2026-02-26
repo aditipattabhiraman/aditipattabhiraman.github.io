@@ -1,11 +1,21 @@
 document.addEventListener('DOMContentLoaded', function() {
 
-    // Section visibility observer (targets .section-wrapper divs)
+    // ── Section visibility observer (targets .section-wrapper divs) ──────────
     const sectionWrappers = document.querySelectorAll('.section-wrapper');
     const visibilityObserver = new IntersectionObserver((entries, obs) => {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
                 entry.target.classList.add('visible');
+
+                // Staggered entrance for cards and skill categories inside this section
+                const staggerItems = entry.target.querySelectorAll('.card, .skill-category');
+                staggerItems.forEach((item, i) => {
+                    item.classList.add('card-stagger');
+                    setTimeout(() => {
+                        item.classList.add('card-visible');
+                    }, i * 100);
+                });
+
                 obs.unobserve(entry.target);
             }
         });
@@ -15,7 +25,7 @@ document.addEventListener('DOMContentLoaded', function() {
         visibilityObserver.observe(wrapper);
     });
 
-    // Active nav link highlighting based on which section is in view
+    // ── Active nav link highlighting based on which section is in view ────────
     const navLinks = document.querySelectorAll('.nav-menu a');
     const navObserver = new IntersectionObserver((entries) => {
         entries.forEach(entry => {
@@ -32,7 +42,7 @@ document.addEventListener('DOMContentLoaded', function() {
         navObserver.observe(wrapper);
     });
 
-    // Typing animation for the header title (guarded null check)
+    // ── Typing animation for the header title ─────────────────────────────────
     const typingText = document.querySelector('.header-typing');
     if (typingText) {
         const text = typingText.textContent;
@@ -52,47 +62,40 @@ document.addEventListener('DOMContentLoaded', function() {
         type();
     }
 
-    // Button hover ripple effect
-    const buttons = document.querySelectorAll('a.button');
-    buttons.forEach(button => {
-        button.style.position = 'relative';
-        button.addEventListener('click', function(e) {
-            let x = e.clientX - e.target.offsetLeft;
-            let y = e.clientY - e.target.offsetTop;
+    // ── Hamburger menu toggle ──────────────────────────────────────────────────
+    const navToggle = document.querySelector('.nav-toggle');
+    const navMenu = document.querySelector('.nav-menu');
 
-            let ripple = document.createElement('span');
-            ripple.style.cssText = `
-                position: absolute;
-                background: rgba(255,255,255,0.5);
-                border-radius: 50%;
-                transform: scale(0);
-                animation: ripple-animation 0.6s linear;
-                left: ${x}px;
-                top: ${y}px;
-                width: 20px;
-                height: 20px;
-                margin-left: -10px;
-                margin-top: -10px;
-            `;
-
-            this.appendChild(ripple);
-            setTimeout(() => ripple.remove(), 600);
+    if (navToggle && navMenu) {
+        navToggle.addEventListener('click', function() {
+            const isOpen = navMenu.classList.toggle('open');
+            navToggle.classList.toggle('open', isOpen);
+            navToggle.setAttribute('aria-expanded', isOpen);
         });
-    });
 
-    // Scroll progress bar
+        // Close mobile nav when a link is clicked
+        navMenu.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', function() {
+                navMenu.classList.remove('open');
+                navToggle.classList.remove('open');
+                navToggle.setAttribute('aria-expanded', 'false');
+            });
+        });
+    }
+
+    // ── Scroll progress bar ───────────────────────────────────────────────────
     const progressBar = document.createElement('div');
     progressBar.id = 'progress-bar';
     document.body.appendChild(progressBar);
 
-    // Scroll-to-Top Button
+    // ── Scroll-to-Top Button ──────────────────────────────────────────────────
     const scrollToTopBtn = document.createElement('button');
     scrollToTopBtn.id = 'scroll-to-top';
     scrollToTopBtn.innerHTML = '↑';
     scrollToTopBtn.setAttribute('aria-label', 'Scroll to top');
     document.body.appendChild(scrollToTopBtn);
 
-    // Combined scroll handler (progress bar + scroll-to-top + header shrink)
+    // ── Combined scroll handler (progress bar + scroll-to-top + header shrink) ─
     const header = document.querySelector('.title-banner');
     let lastScrollTop = 0;
 
@@ -119,4 +122,38 @@ document.addEventListener('DOMContentLoaded', function() {
     scrollToTopBtn.addEventListener('click', () => {
         window.scrollTo({ top: 0, behavior: 'smooth' });
     });
+
+    // ── Skill tag ripple on click ─────────────────────────────────────────────
+    document.querySelectorAll('.skill-tag').forEach(tag => {
+        tag.addEventListener('click', function(e) {
+            const ripple = document.createElement('span');
+            ripple.style.cssText = `
+                position: absolute;
+                border-radius: 50%;
+                background: rgba(255,255,255,0.6);
+                transform: scale(0);
+                animation: ripple-anim 0.5s linear;
+                width: 40px;
+                height: 40px;
+                left: 50%;
+                top: 50%;
+                margin-left: -20px;
+                margin-top: -20px;
+                pointer-events: none;
+            `;
+            this.style.position = 'relative';
+            this.style.overflow = 'hidden';
+            this.appendChild(ripple);
+            setTimeout(() => ripple.remove(), 500);
+        });
+    });
+
 });
+
+// CSS keyframe for ripple injected at runtime
+const rippleStyle = document.createElement('style');
+rippleStyle.textContent = `
+@keyframes ripple-anim {
+  to { transform: scale(3); opacity: 0; }
+}`;
+document.head.appendChild(rippleStyle);
