@@ -123,11 +123,17 @@ document.addEventListener('DOMContentLoaded', function() {
         window.scrollTo({ top: 0, behavior: 'smooth' });
     });
 
-    // ── Business card flip on click ───────────────────────────────────────────
+    // ── Business card flip on click / keyboard ────────────────────────────────
     const bizCard = document.getElementById('biz-card');
     if (bizCard) {
         bizCard.addEventListener('click', () => {
             bizCard.classList.toggle('is-flipped');
+        });
+        bizCard.addEventListener('keydown', (e) => {
+            if (e.key === 'Enter' || e.key === ' ') {
+                e.preventDefault();
+                bizCard.classList.toggle('is-flipped');
+            }
         });
     }
 

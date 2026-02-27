@@ -296,7 +296,7 @@ M. Baglione et al., "Validation of Energy Savings from a Condenser Water Supply 
     <div class="key-item" style="--swing-delay:1.75s;--swing-dur:3.3s">
       <div class="key-ring"></div>
       <div class="key-chain"></div>
-      <div class="key-tag">
+      <div class="key-tag" style="background:#1e1e2e">
         <a href="https://www.blender.org/" target="_blank" rel="noreferrer">
           <img src="https://download.blender.org/branding/community/blender_community_badge_white.svg" alt="Blender" width="36" height="36" loading="lazy"/>
         </a>
@@ -378,7 +378,7 @@ M. Baglione et al., "Validation of Energy Savings from a Condenser Water Supply 
 <p>Open to research collaborations, project discussions, and opportunities in robotics and autonomous systems. Tap the card to connect.</p>
 
 <div class="biz-card-scene">
-  <div class="biz-card" id="biz-card">
+  <div class="biz-card" id="biz-card" tabindex="0" role="button" aria-label="Business card – press Enter or Space to flip">
     <div class="biz-card-face biz-card-front">
       <span class="bc-monogram">A.P.</span>
       <div class="bc-accent-line"></div>

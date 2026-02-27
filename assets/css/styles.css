@@ -281,7 +281,7 @@ main {
 .card:hover {
   border-left-color: var(--color-accent-dark);
   box-shadow: 0 6px 24px rgba(59, 130, 246, 0.18);
-  transform: translateY(-3px);
+  transform: translateY(-3px) !important; /* override card-stagger specificity */
 }
 
 .card-title {
@@ -669,6 +669,16 @@ footer {
 }
 
 /* =========================================
+   Picture frame hover (needs to override !important base styles)
+   ========================================= */
+.picture-frame-card:hover {
+  border-color: #a08555 !important;
+  box-shadow: 0 0 0 2px #e8c98a, 0 0 0 4px #a08555,
+              8px 14px 36px rgba(0,0,0,0.28) !important;
+  transform: translateY(-3px) !important;
+}
+
+/* =========================================
    THEME: Mailbox  (Home section)
    ========================================= */
 .mailbox-scene {
@@ -686,34 +696,47 @@ footer {
 }
 
 .mailbox-body {
-  width: 100px;
-  height: 68px;
+  width: 140px;
+  height: 90px;
   background: linear-gradient(135deg, #d32f2f 0%, #b71c1c 100%);
-  border-radius: 50% 50% 5px 5px / 30px 30px 5px 5px;
+  border-radius: 50% 50% 5px 5px / 36px 36px 5px 5px;
   position: relative;
-  box-shadow: 3px 5px 16px rgba(0,0,0,0.3), inset 0 -6px 10px rgba(0,0,0,0.2),
-              inset 0 2px 4px rgba(255,255,255,0.15);
+  box-shadow: 4px 6px 20px rgba(0,0,0,0.35), inset 0 -8px 14px rgba(0,0,0,0.25),
+              inset 0 3px 6px rgba(255,255,255,0.18);
+}
+
+/* Mailbox number plate */
+.mailbox-body::after {
+  content: '42';
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 0.6rem;
+  font-weight: 700;
+  color: rgba(255,255,255,0.5);
+  letter-spacing: 0.15em;
 }
 
 .mailbox-slot {
   position: absolute;
-  top: 58%;
+  top: 52%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 50px;
-  height: 5px;
-  background: rgba(0,0,0,0.55);
+  width: 68px;
+  height: 6px;
+  background: rgba(0,0,0,0.6);
   border-radius: 3px;
-  box-shadow: inset 0 1px 3px rgba(0,0,0,0.5);
+  box-shadow: inset 0 2px 4px rgba(0,0,0,0.6);
 }
 
 .mailbox-flag-post {
   position: absolute;
-  right: -7px;
-  top: 14px;
-  width: 3px;
-  height: 28px;
-  background: linear-gradient(to right, #777, #bbb, #777);
+  right: -9px;
+  top: 16px;
+  width: 4px;
+  height: 32px;
+  background: linear-gradient(to right, #666, #bbb, #666);
   border-radius: 2px;
 }
 
@@ -847,22 +870,36 @@ footer {
 }
 
 .doorway-arch::after {
-  content: 'Projects';
+  content: '';
   position: absolute;
-  top: 14px;
+  top: 17px;
   left: 50%;
   transform: translateX(-50%);
-  font-size: 0.65rem;
-  font-weight: 700;
-  letter-spacing: 0.18em;
-  text-transform: uppercase;
-  color: #7a5c1e;
-  opacity: 0.6;
+  width: 10px;
+  height: 10px;
+  background: rgba(122, 92, 30, 0.5);
+  border-radius: 50%;
+  box-shadow: 0 0 0 3px rgba(122, 92, 30, 0.2);
 }
 
 .doorway-content {
   padding: 0 var(--space-2);
 }
+
+/* Side pillars extending the arch borders down the full section height */
+.doorway-frame::before,
+.doorway-frame::after {
+  content: '';
+  position: absolute;
+  top: 56px;
+  bottom: 0;
+  width: 5px;
+  background: #7a5c1e;
+  pointer-events: none;
+}
+
+.doorway-frame::before { left: 0; }
+.doorway-frame::after  { right: 0; }
 
 /* =========================================
    THEME: Picture Frames  (Publications)
@@ -921,6 +958,23 @@ footer {
   box-shadow: inset 0 0 30px rgba(0,0,0,0.95),
               0 0 0 2px #1a1a1a;
   overflow: hidden;
+  position: relative;
+}
+
+.tv-screen-bezel::after {
+  content: '';
+  position: absolute;
+  inset: 6px;
+  background: repeating-linear-gradient(
+    to bottom,
+    transparent 0px,
+    transparent 3px,
+    rgba(0,0,0,0.08) 3px,
+    rgba(0,0,0,0.08) 4px
+  );
+  pointer-events: none;
+  border-radius: 4px;
+  z-index: 10;
 }
 
 .tv-screen-bezel iframe {
@@ -1000,6 +1054,8 @@ footer {
 .rack-rod-row {
   display: flex;
   align-items: center;
+  position: relative;
+  z-index: 2;
 }
 
 .rack-mount {
@@ -1039,6 +1095,9 @@ footer {
   justify-content: center;
   gap: var(--space-5);
   padding: 0 var(--space-3) var(--space-4);
+  margin-top: -8px;
+  position: relative;
+  z-index: 1;
 }
 
 .key-item {
@@ -1295,6 +1354,12 @@ footer {
 
   .doorway-frame {
     padding-top: 44px;
+  }
+
+  .doorway-frame::before,
+  .doorway-frame::after {
+    top: 40px;
+    width: 4px;
   }
 }
 
