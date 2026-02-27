@@ -123,6 +123,14 @@ document.addEventListener('DOMContentLoaded', function() {
         window.scrollTo({ top: 0, behavior: 'smooth' });
     });
 
+    // ── Business card flip on click ───────────────────────────────────────────
+    const bizCard = document.getElementById('biz-card');
+    if (bizCard) {
+        bizCard.addEventListener('click', () => {
+            bizCard.classList.toggle('is-flipped');
+        });
+    }
+
     // ── Skill tag ripple on click ─────────────────────────────────────────────
     document.querySelectorAll('.skill-tag').forEach(tag => {
         tag.addEventListener('click', function(e) {
